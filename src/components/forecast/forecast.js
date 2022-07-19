@@ -69,10 +69,6 @@ const Forecast = ({ data }) => {
                                     <label>{item.wind.speed} m/s</label>
                                 </div>
                                 <div className="daily-details-grid-item">
-                                    <label>Sea level</label>
-                                    <label>{item.main.sea_level} hPa</label>
-                                </div>
-                                <div className="daily-details-grid-item">
                                     <label>Feels like</label>
                                     <label>
                                         {Math.round(item.main.feels_like)} ºC
